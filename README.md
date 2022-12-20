@@ -10,7 +10,7 @@ graph TD;
 
 
 ```plantuml
-@startuml
+
 skinparam monochrome false
 skinparam defaultFontName Helvetica Neue
 skinparam roundcorner 20
@@ -59,5 +59,5 @@ node "Ansible/Python Lirary" as APL {
  [API_Intf_1] --left-> [Leaf-Type1]
  [API_Intf_2] --left-> [Leaf-Type2]
 
-@enduml
+
 ```
